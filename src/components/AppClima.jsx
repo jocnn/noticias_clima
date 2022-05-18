@@ -4,8 +4,6 @@ const AppClima = () => {
   return (
     <>
       <main>
-        AppClima
-      
         <Formulario />
       </main>
 
