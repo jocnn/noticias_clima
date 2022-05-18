@@ -3,7 +3,7 @@ import Formulario from "./Formulario"
 const AppClima = () => {
   return (
     <>
-      <main>
+      <main className="dos-columnas">
         <Formulario />
       </main>
 
