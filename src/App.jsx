@@ -1,8 +1,10 @@
+import AppClima from "./components/AppClima"
+
 function App() {
 
   return (
     <div>
-      <h1>App clima</h1>
+      <AppClima />
     </div>
   )
 }
