@@ -16,11 +16,16 @@ const ClimaProvider = ({children}) => {
     })
   }
 
+  const consultarClima = datos => {
+    console.info(datos)
+  }
+
   return (
     <ClimaContext.Provider 
       value={{
         busqueda,
-        datosBusqueda
+        datosBusqueda,
+        consultarClima
       }}
     >
       {children}
