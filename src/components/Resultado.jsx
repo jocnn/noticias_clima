@@ -3,7 +3,7 @@ import useClima from "../hooks/useClima"
 const Resultado = () => {
 
   const { resultado } = useClima()
-  console.info(resultado)
+  //console.info(resultado)
   
   const { name, main } = resultado
 
