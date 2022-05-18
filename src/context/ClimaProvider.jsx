@@ -9,6 +9,8 @@ const ClimaProvider = ({children}) => {
     pais: ''
   })
 
+  console.warn(import.meta.env.VITE_API_KEY)
+
   const datosBusqueda = e => {
     setBusqueda({
       ...busqueda,
